@@ -16,7 +16,7 @@ warnings.filterwarnings('ignore')
 #     "rating": [1, 2, 2, 4, 2.5, 4, 4.5, 5, 3],
 # }
 print("Data is loading...")
-ratings = pd.read_csv('ratings.dat', sep='::', names=['user_id','movie_id','rating','titmestamp'])
+ratings = pd.read_csv('data/ratings.dat', sep='::', names=['user_id','movie_id','rating','titmestamp'])
 
 df = pd.DataFrame(ratings)
 reader = Reader(rating_scale=(1, 5))
