@@ -1,4 +1,8 @@
 # multimedia_systems
-Multimedia Systems Homework assignments
+Homework assignment 1
 
-In this repo you will find all the homework assignments made for the course Multimedia Systems Leiden University.
+To run the script some modules are required.
+  pandas
+  scikit-learn surprise
+
+To make a prediction run the predictor.py script the rest is self explanatory. It is possible that the question is asked to download the movielens100k this dataset is used to train the neural network
